@@ -1,0 +1,7 @@
+// ...existing code...
+<section class="gallery">
+  <img src="images/house1.jpg" alt="Modern house exterior">
+  <img src="images/house2.jpg" alt="Luxury villa">
+  <img src="images/house3.jpg" alt="House interior">
+</section>
+// ...existing code...

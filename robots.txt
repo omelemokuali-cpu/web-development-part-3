@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hilarious-llama-0e2530.netlify.app/sitemap.xml

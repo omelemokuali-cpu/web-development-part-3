@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="KOENA houses logo">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d4d8f"/>
+      <stop offset="100%" stop-color="#163b6d"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="26" fill="url(#g1)"/>
+  <path d="M28 74 L60 42 L92 74 V92 H28 Z" fill="#ffffff" opacity="0.96"/>
+  <path d="M42 92 V64 H78 V92" fill="#d9a441"/>
+  <path d="M50 92 V72 H70 V92" fill="#1d4d8f" opacity="0.85"/>
+  <path d="M24 92 H96" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+</svg>

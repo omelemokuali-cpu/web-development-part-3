@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Properties | KOENA houses | Homes for Sale</title>
+  <meta name="description" content="Browse featured properties and homes for sale with KOENA houses in growing neighborhoods and investment hotspots." />
+  <meta name="keywords" content="real estate, houses for sale, property listings, villa homes, family homes, investment property" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="KOENA houses | Property Listings" />
+  <meta property="og:description" content="Explore premium homes, investment properties, and family residences with KOENA houses." />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://hilarious-llama-0e2530.netlify.app/properties.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <img src="images/logo.svg" alt="KOENA houses logo" class="brand-logo">
+        <span>KOENA houses</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Services</a>
+        <a href="properties.html" class="active">Properties</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <a class="btn btn-primary nav-cta" href="contact.html">Book a Visit</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container narrow">
+        <p class="eyebrow">Available homes</p>
+        <h1>Explore handpicked homes in growing neighborhoods.</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="villa">Villa</button>
+          <button class="filter-btn" data-filter="family">Family</button>
+          <button class="filter-btn" data-filter="condo">Condo</button>
+          <button class="filter-btn" data-filter="investment">Investment</button>
+        </div>
+
+        <div class="property-toolbar">
+          <label class="search-field" for="propertySearch">
+            <span>Search listings</span>
+            <input id="propertySearch" type="search" placeholder="Search by property name or keyword" aria-label="Search properties" />
+          </label>
+          <p id="propertyResultCount" class="result-count" aria-live="polite">6 properties found</p>
+        </div>
+
+        <div class="property-grid">
+          <article class="property-card" data-category="villa">
+            <div class="property-image property-one"></div>
+            <div class="property-content">
+              <div class="row">
+                <h3>Willow Crest</h3>
+                <span>$760,000</span>
+              </div>
+              <p>3 Bed • 2 Bath • 2,100 sq ft</p>
+              <div class="meta">
+                <span>Modern</span>
+                <span>Garden</span>
+                <span>Quiet area</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="property-card" data-category="family">
+            <div class="property-image property-two"></div>
+            <div class="property-content">
+              <div class="row">
+                <h3>Maple Grove</h3>
+                <span>$920,000</span>
+              </div>
+              <p>4 Bed • 3 Bath • 2,640 sq ft</p>
+              <div class="meta">
+                <span>School zone</span>
+                <span>Large lot</span>
+                <span>Family</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="property-card" data-category="condo">
+            <div class="property-image property-three"></div>
+            <div class="property-content">
+              <div class="row">
+                <h3>Harbor Point</h3>
+                <span>$540,000</span>
+              </div>
+              <p>2 Bed • 2 Bath • 1,240 sq ft</p>
+              <div class="meta">
+                <span>Waterfront</span>
+                <span>City views</span>
+                <span>Condo</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="property-card" data-category="investment">
+            <div class="property-image property-four"></div>
+            <div class="property-content">
+              <div class="row">
+                <h3>Summit View</h3>
+                <span>$1,200,000</span>
+              </div>
+              <p>5 Bed • 4 Bath • 3,300 sq ft</p>
+              <div class="meta">
+                <span>Rental</span>
+                <span>High ROI</span>
+                <span>Investment</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="property-card" data-category="villa">
+            <div class="property-image property-five"></div>
+            <div class="property-content">
+              <div class="row">
+                <h3>Azure Heights</h3>
+                <span>$1,050,000</span>
+              </div>
+              <p>4 Bed • 3 Bath • 2,960 sq ft</p>
+              <div class="meta">
+                <span>Pool</span>
+                <span>Luxury</span>
+                <span>Villa</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="property-card" data-category="family">
+            <div class="property-image property-six"></div>
+            <div class="property-content">
+              <div class="row">
+                <h3>Pine Hollow</h3>
+                <span>$680,000</span>
+              </div>
+              <p>3 Bed • 2 Bath • 1,860 sq ft</p>
+              <div class="meta">
+                <span>Cozy</span>
+                <span>Spacious</span>
+                <span>Family</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="container cta-box">
+        <div>
+          <p class="eyebrow">Need help choosing?</p>
+          <h2>Schedule a guided property consultation.</h2>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Book a tour</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand">
+          <img src="images/logo.svg" alt="KOENA houses logo" class="brand-logo">
+          <span>KOENA houses</span>
+        </a>
+        <p>Helping buyers, sellers, and investors navigate every move with confidence.</p>
+      </div>
+
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="properties.html">Properties</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>200 Harbor Lane</li>
+          <li>(555) 218-9021</li>
+          <li>hello@koenahouses.com</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> KOENA houses</p>
+    </div>
+  </footer>
+
+  <div id="propertyLightbox" class="lightbox" aria-hidden="true">
+    <div class="lightbox-content" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle">
+      <button class="lightbox-close" type="button" aria-label="Close image">×</button>
+      <div class="lightbox-image" aria-hidden="true"></div>
+      <div class="lightbox-body">
+        <h3 id="lightboxTitle" class="lightbox-title">Property</h3>
+        <p class="lightbox-text"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
